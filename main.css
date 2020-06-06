@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.top{
+    background: white;
+    height: 75px;
+    width: 315px;
+    border-radius: 10px;
+}
+header{
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.1)
+            ),url("banner.jpg");
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+h3 {
+    color: black;
+}
+
+ul li{
+    padding: 5px 20px;
+    font-size: 17px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+}
+ul li:hover{
+    background: white;
+    color: cornflowerblue;
+}
+ul{
+    position: relative;
+    margin-top: -50px;
+    margin-right: 90px;
+
+}
+.active {
+    background: white;
+    color: cornflowerblue;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.logo img{
+    float: left;
+    width: 50px;
+    height: auto;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.title h2{
+    color: #fff;
+    padding-left: 50px;
+}
+
+/*---------------------------*/ /* Read Users */ /*---------------------------*/
+
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.bttn{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.bttn:hover{
+    background-color: #fff;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+form{
+    /*border: 1px solid black;*/
+    width: 500px;
+    height: 50vh;
+    /*background: rgba(100,100,100,0.3);*/
+    /*opacity: 50%;*/
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px;
+}
+input{
+    width: 250px;
+    color: black;
+    padding: 10px;
+    outline: none;
+}
+
+.name{
+    font-size: 18px;
+    color: #74B9FF;
+    padding-top: 30px;
+}
+i{
+    font-size: 20px;
+    color: #43BE31;
+    padding-right: 10px;
+}
+*::-webkit-input-placeholder {color: white; }/*change color of placeholder*/
+
+.place{
+    background: none;
+    border: none;
+    color: white;
+}
+
+button{
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #0A79DF;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    opacity: 50%;
+}
+
+select{
+    width: 20%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+select option{
+    background: rgba(0, 100, 100, 0.8);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.formtitle1{
+    position: center;
+    font-size: 30px;
+    margin-left: 145px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.formtitle2{
+    position: center;
+    font-size: 15px;
+    margin-left: 119px;
+    color: #fff;
+}
