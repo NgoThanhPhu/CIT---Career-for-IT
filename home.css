@@ -191,22 +191,3 @@ select option{
     margin-left: 119px;
     color: #fff;
 }
-
-hr{
-    margin-top: 20px;
-    width: 580px;
-    border-top: 1px solid red;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-
-}
-
-table{
-    padding: 40px;
-    background: #171619;
-    color: white;
-    height: auto;
-    font-size: 14px;
-    width: 100%;
-}
