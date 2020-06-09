@@ -6,10 +6,9 @@
 .top{
     background: white;
     height: 75px;
-    width: 315px;
-    border-radius: 10px;
+    width: 100%;
 }
-header{
+/*header{
     background:
             linear-gradient(
                     rgba(0, 0, 0, 0.1),
@@ -18,45 +17,13 @@ header{
     height: 100vh;
     background-size: cover ;
     background-position: center;
-}
+}*/
 h1 {
     text-align: center;
     color: black;
 }
 h3 {
     color: black;
-}
-
-ul li{
-    padding: 5px 20px;
-    font-size: 17px;
-    color: white;
-    float: right;
-    margin-right: 40px;
-    list-style-type: none;
-}
-ul li:hover{
-    background: white;
-    color: cornflowerblue;
-}
-ul{
-    position: relative;
-    margin-top: -50px;
-    margin-right: 90px;
-
-}
-.active {
-    background: white;
-    color: cornflowerblue;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-a{
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    padding: 5px 20px;
-    border-radius: 5px;
 }
 
 .logo img{
@@ -87,30 +54,7 @@ a{
 
 /*---------------------------*/ /* Read Users */ /*---------------------------*/
 
-.button{
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 20px;
-}
 
-.bttn{
-    border: 2px solid #fff;
-    padding: 10px 30px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 5px;
-}
-
-.bttn:hover{
-    background-color: #fff;
-    color: cornflowerblue;
-    text-decoration: none;
-    font-size: 20px;
-}
 
 form{
     /*border: 1px solid black;*/
@@ -138,8 +82,7 @@ input{
 }
 i{
     font-size: 20px;
-    color: #43BE31;
-    padding-right: 10px;
+    color: cornflowerblue;
 }
 *::-webkit-input-placeholder {color: white; }/*change color of placeholder*/
 
@@ -149,19 +92,6 @@ i{
     color: white;
 }
 
-button{
-    padding: 10px;
-    margin-top: 30px;
-    width: 100%;
-    background-color: #0A79DF;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-}
-
-button:hover{
-    opacity: 50%;
-}
 
 select{
     width: 20%;
@@ -190,4 +120,70 @@ select option{
     font-size: 15px;
     margin-left: 119px;
     color: #fff;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    float: right;
+    padding: 30px 30px;
+    text-decoration: none;
+    color: black;
+}
+.bold{
+    font-weight: bold;
+}
+
+video{
+    filter: brightness(60%);
+    padding-top: 20px;
+}
+.inputtag{
+    position: absolute;
+    border: 1px solid transparent;
+    top: 95%;
+    left: 15%;
+}
+input{
+    background: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+
+}
+.videocontent{
+    position: relative;
+}
+.navbar{
+    position: absolute;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+hr{
+    margin-top: 20px;
+    width: 580px;
+    border-top: 1px solid red;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+
+table{
+    padding: 40px;
+    background: #171619;
+    color: white;
+    height: auto;
+    font-size: 14px;
+    width: 100%;
 }
