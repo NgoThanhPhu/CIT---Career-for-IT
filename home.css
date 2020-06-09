@@ -136,7 +136,6 @@ ul li a{
 
 video{
     filter: brightness(60%);
-    padding-top: 20px;
 }
 .inputtag{
     position: absolute;
@@ -162,11 +161,11 @@ input{
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     padding: 10px;
 }
 .grid-item {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 hr{
@@ -186,4 +185,9 @@ table{
     height: auto;
     font-size: 14px;
     width: 100%;
+}
+
+.job{
+    font-size: 25px;
+    font-weight: bold;
 }
